@@ -7,13 +7,13 @@
   this is a example of mine: 
 
   ``` 
-  $ mv Downloads/metabase-v0.32.4.jar /home/ony/Devel/database/metabase
+  $ mv Downloads/metabase-v0.32.4.jar /home/ony/Devel/database/database/metabase
   ```
 
 - cd into directory and then dump the database of metabase
 
   ```
-  $ $ cd Devel/database/metabase
+  $ $ cd Devel/database/database/metabase
   $ MB_DB_CONNECTION_URI="postgres:///metabase?user=ony&host=/run/postgresql" MB_JETTY_PORT="3003" MB_JETTY_HOST="0.0.0.0" MB_EMOJI_IN_LOGS="false" java -jar metabase-v0.32.4.jar
   ```
 
