@@ -5,6 +5,10 @@ __pycache__/
 
 # C extensions
 *.so
+*.xz
+*.jar
+# excluding folders
+plugin/*
 
 # Distribution / packaging
 .Python
